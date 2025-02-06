@@ -37,10 +37,16 @@ html,body{
     /* background-color: skyblue; */
 }
 
-.backDash h3{
+.backDash a{
+    text-decoration: none;
+    color: #000;
     font-size: .9em;
     font-weight: 500;
     /* color: #6256FC; */
+}
+
+.backDash a:hover{
+    text-decoration: underline;
 }
 
 i {
@@ -49,7 +55,7 @@ i {
 
 
 .image{
-    width: 10vw;
+    width: 8vw;
     /* background-color: red; */
 }
 
@@ -64,10 +70,11 @@ img{
 form{
     width: 40vw;
     border: 1px solid #dbd8d8;
-    border-radius: 1.7vw;
+    border-radius: 1.5vw;
     /* background-color: red; */
-    padding: 2vw;
-    margin-top: 2vw;
+    padding: 1.5vw;
+    box-shadow: 0 0 1.6px rgba(0, 0, 0, 0.2);
+    margin-top: .5vw;
 }
 
 .text-content{
@@ -75,13 +82,13 @@ form{
 }
 
 .text-content h2{
-    font-size:1.2em;
+    font-size:1.1em;
     font-weight: 500;
 }
 
 .text-content p{
     font-size: .9em;
-    /* line-height: 1.5em; */
+    margin-top: .1vw;
     color: grey;
 }
 
@@ -89,6 +96,11 @@ form{
     color: rgb(99, 91, 255);
     text-decoration: none;
     font-weight: 500;
+}
+
+.text-content a:hover{
+    color: rgb(70, 67, 239);
+    text-decoration: underline;
 }
 
 label , input{
@@ -99,13 +111,14 @@ label , input{
 label{
     font-size: .9em;
     font-weight: 500;
-    margin-bottom: .2vw;
+    margin-bottom: .5vw;
 }
 
 input{
     width: 100%;
     padding:.7vw;
     border-radius: .4vw;
+    
     /* border: 1px solid #a8a3a3; */
     border: transparent;
     outline: #635BFF;
@@ -124,12 +137,5 @@ input:focus{
     font-size: .9em;
     color: #fff;
     background-color: #6256FC;
-    font-weight: 500;
-}
-
-.forgot{
-    text-decoration: none;
-    color: blue;
-    font-size: .9em;
     font-weight: 500;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/login.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
 </head>
@@ -15,7 +15,7 @@
         <div class="content">
             <div class="backDash">
                 <i class="ri-arrow-left-line"></i>
-                <a>Dashboard</a>
+                <a href="#">Dashboard</a>
             </div>
             <div class="image">
                 <img src="https://material-kit-pro-react.devias.io/assets/logo--dark.svg" alt="">
@@ -23,27 +23,20 @@
 
             <form action="">
                 <div class="text-content">
-                    <h2>Sign up</h2>
-                    <p>Already have an account? <a href="./login.html">Sign in</a></p>
+                    <h2>Sign in</h2>
+                    <p>Don't have an account? <a href="./index.html">Sign up</a></p>
                 </div>
                 <div class="input-field">
-                    <div id="name-div">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" autocomplete="off" required>
-                    </div>
-                    <div id="PhoneNo-div">
-                        <label for="phoneNo">Phone Number</label>
-                        <input type="tel" id="phoneNo" name="phoneNo" required>
-                    </div>
                     <div id="Email-div">
-                        <label for="email">Email</label>
+                        <label for="email">Email address</label>
                         <input type="email" id="email" name="email" autocomplete="off" required>
                     </div>
                     <div id="Password-div">
                         <label for="email">Password</label>
                         <input type="email" id="email" name="email" autocomplete="off" required>
                     </div>
-                    <input type="button" value="Sign up" class="submit">
+                    <input type="button" value="Sign in" class="submit">
+                    <a class="forgot" href="">Forgot Password?</a>
                 </div>
 
             </form>

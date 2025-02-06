@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter";
+    font-weight: 400;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.content{
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.8vw;
+    padding: 1vw;
+    /* background-color: red; */
+}
+
+.backDash{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    gap: .3vw;
+    margin-bottom: 1vw;
+    /* background-color: skyblue; */
+}
+
+.backDash a{
+    text-decoration: none;
+    color: #000;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.backDash a:hover{
+    text-decoration: underline;
+    transition: .2s ease;
+}
+
+
+i {
+    font-size: 1.2em;
+}
+
+
+.image{
+    width: 8vw;
+    /* background-color: red; */
+}
+
+
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+form{
+    width: 38vw;
+    border: 1px solid #dbd8d8;
+    border-radius: 1.5vw;
+    /* background-color: red; */
+    padding: 2vw 1.6vw;
+    margin-top: 1vw;
+}
+
+.text-content{
+    margin-bottom: 2.4vw;
+}
+
+.text-content h2{
+    font-size:1.1em;
+    font-weight: 500;
+}
+
+.text-content p{
+    font-size: .9em;
+    margin-top: .1vw;
+    color: grey;
+}
+
+.text-content a{
+
+    color: rgb(99, 91, 255);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.text-content a:hover{
+    text-decoration: underline;
+    transition: .2s ease;
+}
+
+label , input{
+    display: block;
+    /* margin-bottom: .5vw; */
+}
+
+label{
+    font-size: .9em;
+    font-weight: 500;
+    margin-bottom: .7vw;
+}
+
+input{
+    width: 100%;
+    padding:.7vw;
+    border-radius: .4vw;
+    /* border: 1px solid #a8a3a3; */
+    border: transparent;
+    outline: #635BFF;
+    transition: border-color .2s ease;
+    box-shadow: 0px 0px 1px #a8a3a3;
+    margin-bottom: 1.4vw;
+}
+
+input:focus{
+    border: 2px solid rgb(91, 91, 239);
+    /* box-shadow: 0px 0px 5px blue; */
+}
+
+.submit{
+    margin-top: 1.5vw;
+    font-size: .9em;
+    color: #fff;
+    background-color: #6256FC;
+    font-weight: 500;
+}
+
+.forgot{
+    text-decoration: none;
+    color: rgb(99, 91, 255);
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+    transition: .2s ease;
+}   
