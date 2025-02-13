@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter 24pt";
+    font-family: "Inter";
     font-weight: 400;
 }
 
@@ -23,7 +23,7 @@ html, body{
   } */
 
 
-  @font-face {
+  /* @font-face {
     font-family: "Inter 18pt";
     src: url("/Fonts/Inter_18pt-Regular.woff");
   }
@@ -41,7 +41,7 @@ html, body{
   @font-face {
     font-family: "Inter 24pt";
     src: url("/Fonts/Inter_24pt-Regular.woff2");
-  }
+  } */
 
 .main{
     width: 100%;
