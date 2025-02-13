@@ -49,7 +49,7 @@
                         <a class="px-1 py-1" href="">Edit |</a>
                         <a class="px-1 py-2" href="">View |</a>
                         <a class="px-1 py-2" href="">Change Password |</a>
-                        <a class="px-1 py-2" class="hover:text-red-500" onclick="">Delete</a>
+                        <a class="px-1 py-2 delete cursor-pointer" class="hover:text-red-500" onclick=confirmDelete()>Delete</a>
                     </td>
 
                 </tr>
@@ -64,7 +64,7 @@
                         <a class="px-1 py-1" href="">Edit |</a>
                         <a class="px-1 py-2" href="">view |</a>
                         <a class="px-1 py-2" href="">Change Password |</a>
-                        <a class="px-1 py-2" class="hover:text-red-500" onclick="" )>Delete</a>
+                        <a class="px-1 py-2 delete cursor-pointer" class="hover:text-red-500" onclick=confirmDelete() )>Delete</a>
                     </td>
 
                 </tr>
@@ -79,7 +79,7 @@
                         <a class="px-1 py-1" href="">Edit |</a>
                         <a class="px-1 py-2" href="">view |</a>
                         <a class="px-1 py-2" href="">Change Password |</a>
-                        <a class="px-1 py-2" class="hover:text-red-500" onclick="" )>Delete</a>
+                        <a class="px-1 py-2 delete cursor-pointer" class="hover:text-red-500" onclick=confirmDelete() )>Delete</a>
                     </td>
 
                 </tr>
@@ -95,7 +95,7 @@
                         <a class="px-1 py-1" href="">Edit |</a>
                         <a class="px-1 py-2" href="">view |</a>
                         <a class="px-1 py-2" href="">Change Password |</a>
-                        <a class="px-1 py-2" class="hover:text-red-500" onclick="" )>Delete</a>
+                        <a class="px-1 py-2 delete cursor-pointer" class="hover:text-red-500" onclick=confirmDelete()>Delete</a>
                     </td>
 
                 </tr>
@@ -120,6 +120,17 @@
        </div>
     </div>
 
+    <script>
+        function confirmDelete() {
+            let confirmAction = confirm("Are you sure you want to delete?");
+            if (confirmAction) {
+                alert("User got deleted.");
+            } else {
+                alert("Action canceled.");
+            }
+        }
+        
+    </script>
 </body>
 
 </html>
