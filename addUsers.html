@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add users</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="w-full h-screen flex items-center justify-center bg-grey-500 ">
+        <form class="w-[30vw] border-[1px] border-[#dcdfe4] py-10 px-10 rounded-lg shadow-lg" action="">
+            <div class="text-content">
+                <h2 class="text-2xl capitalise">Add User</h2>
+            </div>
+            <div class="input-field flex mt-4 flex-col justify-center gap-5">
+                <div class="flex flex-col gap-1 group" id="name-div">
+                    <label class=" group-focus-within:text-blue-600"  for="name">Name</label>
+                    <input class="border-[1px] border-[#dcdfe4] p-2 rounded-lg text-[16px] outline-[#635bff]" type="text" id="name" name="name" placeholder="Enter your name" autocomplete="off" required>
+                    <span class="text-sm text-red-500">Name is required !!</span>
+                </div>
+
+                <div class="flex flex-col gap-1 group"  id="Email-div">
+                    <label class=" group-focus-within:text-blue-600 " for="email">Email address</label>
+                    <input class="border-[1px] border-[#dcdfe4] p-2 rounded-lg text-[16px] outline-[#635bff]" type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off" required>
+                    <span class="text-sm text-red-500">Email address is required !!</span>
+                </div>
+                
+                <div class="flex flex-col gap-1 group" id="Phone-div">
+                    <label class=" group-focus-within:text-blue-600" for="phone">Phone number</label>
+                    <input class="border-[1px] border-[#dcdfe4] p-2 rounded-lg text-[16px] outline-[#635bff]" type="tel" id="phone" name="phone" placeholder="Enter your Phone No." autocomplete="off" required>
+                    <span class="text-sm text-red-500">Phone number is required !!</span>
+                </div>
+                
+                <div class="flex flex-col gap-1 group" id="Password-div">
+                    <label class=" group-focus-within:text-blue-600" for="password">Password</label>
+                    <input class="border-[1px] border-[#dcdfe4] p-2 rounded-lg text-[16px] outline-[#635bff]" type="password" id="password" name="password" autocomplete="off" placeholder="Enter Password" required>
+                    <span class="text-sm text-red-500">Password is required !!</span>
+                </div>
+
+                <div class="flex flex-col gap-1 group" id="ConfirmPassword-div">
+                    <label class=" group-focus-within:text-blue-600" for="confirmPassword">Confirm password</label>
+                    <input class="border-[1px] border-[#dcdfe4] p-2 rounded-lg text-[16px] outline-[#635bff]" type="email" id="confirmPassword" name="confirmPassword" placeholder="Re-enter Password" autocomplete="off" required>
+                    <span class="text-sm text-red-500">Confirm Password is required !!</span>
+                </div>
+                <input class="px-2 py-2 rounded-lg bg-[#4e36f5] text-[#fff] text-sm font-semibold" type="button" value="Create account" class="submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

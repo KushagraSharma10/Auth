@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Table</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <div class="w-full h-screen flex items-center justify-center">
+
+       <div>
+        <table class="">
+            <caption>
+                
+                <h1 class="text-2xl uppercase font-bold underline">User Table</h1>
+                <div class="flex items-center justify-between">
+                    <!-- <label for="search">search</label> -->
+                    <input class="px-3 py-2 border-[1px] mb-2 outline-blue-500 rounded-md text-sm"
+                        placeholder="Search..." type="search" name="" id="">
+                    <a class="px-2 py-2 bg-orange-500 text-white text-sm font-semibold rounded-lg" href="./addUsers.html">Add User</a>
+                </div>
+
+
+            </caption>
+            <thead>
+                <tr class="border-[1px] border-l-[1px]">
+                    <th class="border-r-[1px] px-3 py-2">S.No.</th>
+                    <th class="border-r-[1px] px-3 py-2">Name</th>
+                    <th class="border-r-[1px] px-3 py-2">Email</th>
+                    <th class="border-r-[1px] px-3 py-2">Phone</th>
+                    <th class="border-r-[1px] px-3 py-2">Created at</th>
+                    <th class="border-r-[1px] px-3 py-2">updated at</th>
+                    <th class="px-3 py-2">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b-[1px] border-l-[1px]">
+                    <th class="border-r-[1px] px-3 py-2">1</th>
+                    <td class="border-r-[1px] px-3 py-2">Jayant</td>
+                    <td class="border-r-[1px] px-3 py-2">Jayant123@gmail.com</td>
+                    <td class="border-r-[1px] px-3 py-2">9876543210</td>
+                    <td class="border-r-[1px] px-3 py-2">2022-01-01 12:00:00</td>
+                    <td class="border-r-[1px] px-3 py-2 text-center">2 min ago</td>
+                    <td class="border-r-[1px] px-3 py-2">
+                        <a class="px-1 py-1" href="">Edit |</a>
+                        <a class="px-1 py-2" href="">View |</a>
+                        <a class="px-1 py-2" href="">Change Password |</a>
+                        <a class="px-1 py-2" class="hover:text-red-500" onclick="">Delete</a>
+                    </td>
+
+                </tr>
+                <tr class="border-b-[1px] border-l-[1px]">
+                    <th class="border-r-[1px] px-3 py-2">2</th>
+                    <td class="border-r-[1px] px-3 py-2">Rahul</td>
+                    <td class="border-r-[1px] px-3 py-2">Rahul456@gmail.com</td>
+                    <td class="border-r-[1px] px-3 py-2">9876543211	</td>
+                    <td class="border-r-[1px] px-3 py-2">2022-02-15 09:30:00</td>
+                    <td class="border-r-[1px] px-3 py-2 text-center">5 min ago</td>
+                    <td class="border-r-[1px] px-3 py-2">
+                        <a class="px-1 py-1" href="">Edit |</a>
+                        <a class="px-1 py-2" href="">view |</a>
+                        <a class="px-1 py-2" href="">Change Password |</a>
+                        <a class="px-1 py-2" class="hover:text-red-500" onclick="" )>Delete</a>
+                    </td>
+
+                </tr>
+                <tr class="border-b-[1px] border-l-[1px]">
+                    <th class="border-r-[1px] px-3 py-2">3</th>
+                    <td class="border-r-[1px] px-3 py-2">Priya</td>
+                    <td class="border-r-[1px] px-3 py-2">Priya789@gmail.com	</td>
+                    <td class="border-r-[1px] px-3 py-2">9876543212	</td>
+                    <td class="border-r-[1px] px-3 py-2">2022-03-10 14:20:00</td>
+                    <td class="border-r-[1px] px-3 py-2">10 min ago	</td>
+                    <td class="border-r-[1px] px-3 py-2">
+                        <a class="px-1 py-1" href="">Edit |</a>
+                        <a class="px-1 py-2" href="">view |</a>
+                        <a class="px-1 py-2" href="">Change Password |</a>
+                        <a class="px-1 py-2" class="hover:text-red-500" onclick="" )>Delete</a>
+                    </td>
+
+                </tr>
+
+                <tr class="border-b-[1px] border-l-[1px]">
+                    <th class="border-r-[1px] px-3 py-2">4</th>
+                    <td class="border-r-[1px] px-3 py-2">Ankit</td>
+                    <td class="border-r-[1px] px-3 py-2">Ankit101@gmail.com</td>
+                    <td class="border-r-[1px] px-3 py-2">9876543213</td>
+                    <td class="border-r-[1px] px-3 py-2">2022-04-05 16:45:00</td>
+                    <td class="border-r-[1px] px-3 py-2">1 hour ago</td>
+                    <td class="border-r-[1px] px-3 py-2">
+                        <a class="px-1 py-1" href="">Edit |</a>
+                        <a class="px-1 py-2" href="">view |</a>
+                        <a class="px-1 py-2" href="">Change Password |</a>
+                        <a class="px-1 py-2" class="hover:text-red-500" onclick="" )>Delete</a>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+
+        <ul class="flex w-fit items-center border border-gray-300 mt-20 ml-70 rounded-md p-2 bg-zinc-300 shadow-md">
+            <li class="px-3 py-1 cursor-pointer">Previous</li>
+            <li class="px-3 py-1 cursor-pointer">|</li>
+            <li class="px-3 py-1 cursor-pointer">1</li>
+            <li class="px-3 py-1 cursor-pointer">|</li>
+            <li class="px-3 py-1 cursor-pointer">2</li>
+            <li class="px-3 py-1 cursor-pointer">|</li>
+            <li class="px-3 py-1 cursor-pointer">...</li>
+            <li class="px-3 py-1 cursor-pointer">|</li>
+            <li class="px-3 py-1 cursor-pointer">4</li>
+            <li class="px-3 py-1 cursor-pointer">|</li>
+            <li class="px-3 py-1 cursor-pointer">5</li>
+            <li class="px-3 py-1 cursor-pointer">|</li>
+            <li class="px-3 py-1 cursor-pointer">Next</li>
+        </ul>
+       </div>
+    </div>
+
+</body>
+
+</html>
